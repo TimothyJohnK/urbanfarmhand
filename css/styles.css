@@ -94,10 +94,10 @@ footer {
 
 
 .bottom-padding {
-  padding: 1em;
+  padding: 3em;
 }
 
-@media (max-width: 612px) {
+@media (max-width: 512px) {
   h1{
     font-size: 3.5em;
   }
@@ -106,5 +106,22 @@ footer {
   }
   footer {
     font-size: 1.3em;
+  }
+  .bottom-padding {
+    padding: 2em;
+  }
+}
+@media (min-width: 613px) and (max-width: 775px) {
+  h1 {
+    font-size: 4.5em;
+  }
+   .header-contact {
+    font-size: 1.6em;
+  }
+   footer {
+    font-size: 1.4em;
+  }
+  .bottom-padding {
+    padding: 2em;
   }
 }
